@@ -1,0 +1,248 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.material-icons{
+    color: black;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    padding: 16px;
+
+}
+.header-left{
+    display: flex;
+    align-items: center; 
+}
+.header-left img{
+    width: 100px;
+    margin-left: 15px;
+}
+.header i{
+   padding: 0px 7px;
+    cursor: pointer;
+}
+.header-search{
+    border: 1px solid #ddd;
+    height: 40px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 25px;
+}
+.header-search input{
+    width: 600px;
+    padding: 9px;
+    border-radius: 0;
+    margin: 0;
+    border: none;
+    text-size-adjust: 5p;
+   
+}
+.header-search-icons{
+    display: flex;
+    margin-top: -27px;
+    margin-left: 574px;
+    padding: 0;
+    height: 100;
+}
+.header-search-mic{
+    margin-left: -255px;
+    border-radius: 5px ;
+}
+.main-body{
+    height: calc(100vh - 70px);
+    display: flex;
+    overflow: hidden;
+}
+.side-bar{
+    width: 230px;
+    height: 100%;
+    overflow-x: scroll;
+    margin-bottom: 800px;
+}
+.side-bar-icones{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.side-bar-icone{
+    display: flex;
+    align-items: center;
+    padding: 12px,25px;
+    margin-left: 15px;
+    line-height: 40px;
+}
+.side-bar-icones span{
+    margin-left: 15px;
+}
+.side-bar-icone :hover{
+    background: grey;
+    cursor: pointer;
+}
+hr{
+    height: 1px;
+    background: grey;
+    border: none;
+}
+.side-bar ::-webkit-scrollbar{
+    display: none;
+}
+.head2{
+
+    display: flex;
+    margin-left: 300px;
+   
+   
+}
+.all{
+border: 1px solid grey ;
+background-color: #b5a9a8;
+    padding-right: 20px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding-left: 20px;
+
+}
+.recomended{
+    margin-left: 20px;
+    background-color: #b5a9a8;
+    border: 1px solid grey ;
+    border-radius: 16px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.live{
+    background-color: #b5a9a8;
+    margin-left: 20px;
+    border: 1px solid grey ;
+    border-radius: 16px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.musics{
+    background-color: #b5a9a8;
+    margin-left: 20px;
+    border: 1px solid grey ;
+    border-radius: 16px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.uploded{
+    background-color:#b5a9a8;
+    margin-left: 20px;
+    border: 1px solid grey ;
+    border-radius: 16px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.watched{
+    background-color:#b5a9a8;
+    margin-left: 20px;
+    border: 1px solid grey ;
+    border-radius: 16px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.new{
+    background-color:#b5a9a8;
+    margin-left: 20px;
+    border: 1px solid grey ;
+    border-radius: 16px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.cook{
+    background-color: #b5a9a8;
+    margin-left: 20px;
+    border: 1px solid grey ;
+    border-radius: 16px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.comady{
+    background-color:#b5a9a8;
+    margin-left: 20px;
+    border: 1px solid grey ;
+    border-radius: 16px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.video{
+    width: 100%;
+    height: 100%;
+    background: #f9f9f9;
+    padding: 15px 25px;
+    border-top: 1px solid #ddd;
+    overflow: scroll;
+}
+.video-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.videos{
+    width: 310px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.thumbnail{
+    width: 100%;
+    height: 170x;
+}
+.thumbnail img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.author img{
+    object-fit: cover;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+.video-detail{
+    display: flex;
+    margin-top: 10px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+}
+.title h3{
+    color: rgb(3, 3, 3);
+    line-height: 18px;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+.title a,span{
+    text-decoration: none;
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+}
